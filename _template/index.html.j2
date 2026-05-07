@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<title>{{ site.meta_title }}</title>
+<meta name="description" content="{{ site.meta_description }}">
+<meta name="robots" content="index,follow">
+
+<meta property="og:title" content="{{ site.og_title }}">
+<meta property="og:description" content="{{ site.og_description }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://interdependent.llc">
+<meta property="og:image" content="https://interdependent.llc/assets/svg/logo.svg">
+<meta name="twitter:card" content="summary">
+
+<link rel="icon" type="image/svg+xml" href="assets/svg/logo.svg">
+<link rel="preload" href="assets/fonts/eurostile-regular.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="assets/fonts/eurostile-semibold.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/" aria-label="{{ hero.title_top }} {{ hero.title_suffix }} — home">
+      <img class="brand-mark" src="assets/svg/logo.svg" alt="">
+      <span class="brand-name">{{ hero.title_top }}</span>
+      <span class="brand-suffix">{{ hero.title_suffix }}</span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      {% for item in nav %}<a href="{{ item.href }}">{{ item.label }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" aria-labelledby="hero-heading">
+    <div class="container">
+      <div class="hero-eyebrow">{{ hero.eyebrow }}</div>
+      <h1 id="hero-heading" class="hero-title">
+        {{ hero.title_top }}<span class="llc">{{ hero.title_suffix }}</span>
+      </h1>
+      <p class="hero-statement">{{ hero.statement }}</p>
+      <dl class="hero-meta">
+        {% for m in hero.meta %}<div>
+          <dt>{{ m.label }}</dt>
+          <dd>{{ m.value }}</dd>
+        </div>
+        {% endfor %}
+      </dl>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about">
+    <div class="container narrow">
+      <span class="eyebrow">{{ about.eyebrow }}</span>
+      <h2 class="section-title">{{ about.heading }}</h2>
+      {% for p in about.body_paragraphs %}<p class="lede"{% if not loop.first %} style="margin-top: 18px;"{% endif %}>{{ p }}</p>
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- OPERATING SEGMENTS -->
+  <section id="segments" class="section">
+    <div class="container">
+      <span class="eyebrow">{{ segments.eyebrow }}</span>
+      <h2 class="section-title">{{ segments.heading }}</h2>
+      <p class="lede">{{ segments.lede }}</p>
+
+      <div class="segments" role="list">
+        {% for s in segments['items'] %}<div class="segment" role="listitem">
+          <div class="segment-name">{{ s.name }}<span class="tld"> · {{ s.slug }}</span></div>
+          <p class="segment-desc">{{ s.description }}</p>
+          {% if s.link_url %}<a class="segment-link" href="{{ s.link_url }}"{% if s.link_url.startswith('http') %} target="_blank" rel="noopener"{% endif %}>{{ s.link_text }}{% if s.link_url.startswith('http') %} ↗{% endif %}</a>{% else %}<span class="segment-link" style="color: var(--text-muted);">{{ s.link_text }}</span>{% endif %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- GOVERNANCE -->
+  <section id="governance" class="section governance">
+    <div class="container narrow">
+      <span class="eyebrow">{{ governance.eyebrow }}</span>
+      <h2 class="section-title">{{ governance.heading }}</h2>
+      <p class="lede">{{ governance.lede }}</p>
+
+      <dl>
+        {% for r in governance.rows %}<div class="row">
+          <dt>{{ r.label }}</dt>
+          <dd>{{ r.value }}</dd>
+        </div>
+        {% endfor %}
+      </dl>
+    </div>
+  </section>
+
+  <!-- LEADERSHIP -->
+  <section id="leadership" class="section">
+    <div class="container narrow">
+      <span class="eyebrow">{{ leadership.eyebrow }}</span>
+      <h2 class="section-title">{{ leadership.heading }}</h2>
+
+      <div class="leader">
+        <div class="leader-name">{{ leadership.name }}</div>
+        <div class="leader-title">{{ leadership.title }}</div>
+        <p class="leader-bio">{{ leadership.bio }}</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <span class="eyebrow">{{ contact.eyebrow }}</span>
+      <h2 class="section-title">{{ contact.heading }}</h2>
+
+      <div class="contact-grid">
+        {% for b in contact.blocks %}<div class="contact-block">
+          <div class="label">{{ b.label }}</div>
+          <div class="value">
+            {% if b.kind == 'email' %}<a href="mailto:{{ b.value }}">{{ b.value }}</a>{% elif b.kind == 'address' %}<address>{% for line in b.lines %}{{ line }}{% if not loop.last %}<br>{% endif %}{% endfor %}</address>{% else %}{{ b.value }}{% endif %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-entity">{{ footer.entity_line }}</div>
+    <nav class="footer-links" aria-label="Legal">
+      {% for l in footer.links %}<a href="{{ l.href }}">{{ l.label }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>
