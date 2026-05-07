@@ -23,6 +23,7 @@ site:
 nav:
   - { label: "About",            href: "#about" }
   - { label: "Operating System", href: "#segments" }
+  - { label: "Library",          href: "#library" }
   - { label: "Governance",       href: "#governance" }
   - { label: "Leadership",       href: "#leadership" }
   - { label: "Contact",          href: "#contact" }
@@ -78,9 +79,15 @@ segments:
 
     - name:        "Future-Proof Production Campus"
       slug:        "Global campus network"
-      description: "Dual-use traditional production and AI/compute facilities. Coudersport, Pennsylvania is the first; the international network is in development with Hackman Capital Partners across the leading box-office markets."
+      description: "Dual-use traditional production and AI/compute facilities, with permanent INTERDEPENDENT-branded theatrical venues at each location. Coudersport, Pennsylvania, is the first; the international network is in development with Hackman Capital Partners across the leading box-office markets."
       link_text:   "In development"
       link_url:    ""
+
+# ----- LIBRARY AND EXHIBITION -----
+library:
+  eyebrow: "Library and exhibition"
+  heading: "Every Production releases as an INTERDEPENDENT Picture."
+  # Body paragraphs are below in the markdown section: "# library-body"
 
 # ----- GOVERNANCE -----
 governance:
@@ -136,6 +143,16 @@ footer:
 INTERDEPENDENT applies the dual-entity venture studio model — the canonical structure that pairs an operating company, where staff sit and work happens, with a separate capital entity that raises institutional capital under conventional venture-fund norms — to independent film production. INTERDEPENDENT LLC is the operating company; INTERDEPENDENT Ventures LP is the affiliated capital entity. The two are paired, not parent and subsidiary.
 
 Each production is a Series of INTERDEPENDENT LLC, with its own assets and liabilities legally isolated under Delaware's Series statute. Membership extends across every contributor role: writers, directors, crew, executive producers, and capital partners are all members with documented economic interests, granted through the role-based process defined in the Operating Agreement. The Operating Agreement governs the structure; the Economic Attribution Policy governs how every contribution becomes an interest. Together, they are the platform's published rulebook.
+
+The rulebook is the studio. Where classical Hollywood enforced house style through contract talent and the studio lot, INTERDEPENDENT enforces it through the Operating Agreement, the Economic Attribution Policy, the Production Standards, and a published Cultural Performance Score — together, the constitution of the company's cultural identity. The pipeline runs as an open platform; the brand emerges from the standards every Production passes through.
+
+# library-body
+
+Every Production releases as "An INTERDEPENDENT Picture." Together, the films constitute INTERDEPENDENT Pictures — the unified studio library — held in permanent custody by the Media Library Series. The library compounds across Seasons; the Permanent Capital Vehicle treats it as an appreciating asset across decades.
+
+The exhibition layer is built to compound with the library. INTERDEPENDENT runs its events through Plots Inc., an institutionally backed events platform whose investors include Andreessen Horowitz, Best Nights, and Ethos Fund. Inside Plots, a co-host network of vetted independent operators produces INTERDEPENDENT-branded events under shared standards and a revenue-share model. Across the global campus network in development with Hackman Capital Partners, each Future-Proof Production Campus operates a permanent INTERDEPENDENT-branded theatrical venue.
+
+For the first time since the Paramount Consent Decrees were dismantled in 1948 — and re-permitted by their August 2022 termination — production, distribution, and exhibition under one company is legally available. INTERDEPENDENT is built inside that window.
 
 # leadership-bio
 

@@ -84,6 +84,16 @@
     </div>
   </section>
 
+  <!-- LIBRARY AND EXHIBITION -->
+  <section id="library" class="section">
+    <div class="container narrow">
+      <span class="eyebrow">{{ library.eyebrow }}</span>
+      <h2 class="section-title">{{ library.heading }}</h2>
+      {% for p in library.body_paragraphs %}<p class="lede"{% if not loop.first %} style="margin-top: 18px;"{% endif %}>{{ p }}</p>
+      {% endfor %}
+    </div>
+  </section>
+
   <!-- GOVERNANCE -->
   <section id="governance" class="section governance">
     <div class="container narrow">
