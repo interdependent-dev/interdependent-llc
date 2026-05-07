@@ -8,6 +8,7 @@ on:
       - "_template/**"
       - "build.py"
       - ".github/workflows/build.yml"
+  workflow_dispatch: {}
 
 # Allow this workflow to commit the rebuilt index.html back to the repo.
 permissions:
