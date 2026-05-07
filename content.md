@@ -42,7 +42,7 @@ hero:
 # ----- ABOUT -----
 about:
   eyebrow: "The model"
-  heading: "A member-owned dual-entity venture studio for independent film."
+  heading: "The studio system, reborn for independent film."
   # Body paragraphs are below in the markdown section: "# about-body"
 
 # ----- OPERATING SYSTEM -----
@@ -50,36 +50,36 @@ about:
 # all user-facing copy now reflects the operating-system framing.)
 segments:
   eyebrow: "Operating system"
-  heading: "Two paired entities, one rulebook, three brands."
-  lede: "INTERDEPENDENT applies the canonical dual-entity venture studio model — used widely in software venture creation — to independent film. Two paired entities, not parent and subsidiary: an operating company where the work happens, and an affiliated capital entity where institutional capital is raised. Inside each, several Series with isolated assets and liabilities under Delaware's Series statute. One Operating Agreement and one Economic Attribution Policy govern every Production. Three brands sit on top of the architecture and surface it to the world."
+  heading: "Two paired entities, three brands."
+  lede: "An operating company paired with an affiliated capital entity — the dual-entity venture studio model, applied to film. Inside, every Production is its own Series with assets and liabilities legally isolated under Delaware's Series statute. Three brands surface the architecture to audiences and partners."
   items:
     - name:        "INTERDEPENDENT LLC"
       slug:        "Operating company"
-      description: "The Delaware Series LLC where the work happens. Houses People (PeopleCo, employer of record), Studios and Productions (each film is its own Series), operating services (payroll, finance, the open-book ledger), physical infrastructure (FacilityCo, EquipmentCo, FleetCo), and IP (Media Library, Technology Library)."
+      description: "The Delaware Series LLC. Houses production, employment, services, infrastructure, and IP."
       link_text:   ""
       link_url:    ""
 
     - name:        "INTERDEPENDENT Ventures LP"
       slug:        "Capital entity · affiliated"
-      description: "The Delaware Series LP where institutional capital is raised. Anchor Fund I is current; Growth Fund II, International Fund III, and Permanent Capital Fund are planned. Operated alongside INTERDEPENDENT LLC; not a subsidiary."
+      description: "The Delaware Series LP where institutional capital is raised. Anchor Fund I current; Funds II, III, and Permanent Capital planned. Operated alongside; not a subsidiary."
       link_text:   "Inquire"
       link_url:    "mailto:hello@interdependent.llc?subject=Ventures%20inquiry"
 
     - name:        "INTERDEPENDENT"
       slug:        ".studio"
-      description: "The online studio lot. The production and coordination platform Studio Series and their members use to run their slates."
+      description: "The online studio lot. Production and coordination for Studios."
       link_text:   "Visit"
       link_url:    "https://interdependent.studio"
 
     - name:        "INTERDEPENDENT"
       slug:        ".tv"
-      description: "The audience and exhibition layer. Streaming, community, and events that connect completed productions to viewers."
+      description: "The audience layer. Streaming, community, and events for completed productions."
       link_text:   "Visit"
       link_url:    "https://interdependent.tv"
 
     - name:        "Future-Proof Production Campus"
       slug:        "Global campus network"
-      description: "Dual-use traditional production and AI/compute facilities, with permanent INTERDEPENDENT-branded theatrical venues at each location. Coudersport, Pennsylvania, is the first; the international network is in development with Hackman Capital Partners across the leading box-office markets."
+      description: "Dual-use traditional and AI/compute facilities, with permanent INTERDEPENDENT theatrical venues. Coudersport first; international with Hackman Capital Partners."
       link_text:   "In development"
       link_url:    ""
 
@@ -92,8 +92,8 @@ library:
 # ----- GOVERNANCE -----
 governance:
   eyebrow: "Governance"
-  heading: "Member-owned, with a single, published rulebook."
-  lede: "Each contributor — capital partner, screenwriter, director, department head, crew, executive — is documented as a member with a defined economic interest. Allocation, distribution, and decision rights are governed by the Operating Agreement and the Economic Attribution Policy."
+  heading: "A published rulebook, binding on every Production."
+  lede: "Allocation, distribution, and decision rights are governed by the Operating Agreement and the Economic Attribution Policy. Both are signed and effective; both are available on request to qualified counterparties."
   rows:
     - { label: "Entity form",           value: "Delaware Series Limited Liability Company" }
     - { label: "Ownership",             value: "Privately held, member-owned" }
@@ -140,20 +140,16 @@ footer:
 
 # about-body
 
-INTERDEPENDENT applies the dual-entity venture studio model — the canonical structure that pairs an operating company, where staff sit and work happens, with a separate capital entity that raises institutional capital under conventional venture-fund norms — to independent film production. INTERDEPENDENT LLC is the operating company; INTERDEPENDENT Ventures LP is the affiliated capital entity. The two are paired, not parent and subsidiary.
+INTERDEPENDENT is a film studio designed for independent filmmakers. Every contributor — writer, director, crew, executive producer, capital partner — becomes a member of the company with a documented economic interest in the films they help make.
 
-Each production is a Series of INTERDEPENDENT LLC, with its own assets and liabilities legally isolated under Delaware's Series statute. Membership extends across every contributor role: writers, directors, crew, executive producers, and capital partners are all members with documented economic interests, granted through the role-based process defined in the Operating Agreement. The Operating Agreement governs the structure; the Economic Attribution Policy governs how every contribution becomes an interest. Together, they are the platform's published rulebook.
-
-The rulebook is the studio. Where classical Hollywood enforced house style through contract talent and the studio lot, INTERDEPENDENT enforces it through the Operating Agreement, the Economic Attribution Policy, the Production Standards, and a published Cultural Performance Score — together, the constitution of the company's cultural identity. The pipeline runs as an open platform; the brand emerges from the standards every Production passes through.
+The structure is the venture studio model applied to film, inside the legal window opened by the August 2022 termination of the Paramount Consent Decrees.
 
 # library-body
 
-Every Production releases as "An INTERDEPENDENT Picture." Together, the films constitute INTERDEPENDENT Pictures — the unified studio library — held in permanent custody by the Media Library Series. The library compounds across Seasons; the Permanent Capital Vehicle treats it as an appreciating asset across decades.
+The films constitute INTERDEPENDENT Pictures — the unified studio library — held in permanent custody by the Media Library Series and treated as an appreciating cultural asset across decades.
 
-The exhibition layer is built to compound with the library. INTERDEPENDENT runs its events through Plots Inc., an institutionally backed events platform whose investors include Andreessen Horowitz, Best Nights, and Ethos Fund. Inside Plots, a co-host network of vetted independent operators produces INTERDEPENDENT-branded events under shared standards and a revenue-share model. Across the global campus network in development with Hackman Capital Partners, each Future-Proof Production Campus operates a permanent INTERDEPENDENT-branded theatrical venue.
-
-For the first time since the Paramount Consent Decrees were dismantled in 1948 — and re-permitted by their August 2022 termination — production, distribution, and exhibition under one company is legally available. INTERDEPENDENT is built inside that window.
+Exhibition runs through Plots Inc. and a co-host network of vetted independent operators producing INTERDEPENDENT-branded events. Each Future-Proof Production Campus also operates a permanent INTERDEPENDENT theatrical venue.
 
 # leadership-bio
 
-Chris Amell founded INTERDEPENDENT in 2026 to organize independent film production around a published rulebook and a member-owned cap table. He is responsible for the strategic direction of the company and its operating system.
+He is responsible for INTERDEPENDENT's strategic direction, its governing documents, and the design of its operating system.
