@@ -51,7 +51,7 @@ about:
 segments:
   eyebrow: "Operating system"
   heading: "Two paired entities, three brands."
-  lede: "An operating company paired with an affiliated capital entity — the dual-entity venture studio model, applied to film. Inside, every Production is its own Series with assets and liabilities legally isolated under Delaware's Series statute. Three brands surface the architecture to audiences and partners."
+  lede: "An operating company paired with an affiliated capital entity — the dual-entity venture studio model. Each underlying venture sits in its own Series under Delaware's Series statute, with assets and liabilities legally isolated. Three brands surface the architecture to audiences and partners."
   items:
     - name:        "INTERDEPENDENT LLC"
       slug:        "Operating company"
@@ -79,7 +79,7 @@ segments:
 
     - name:        "Future-Proof Production Campus"
       slug:        "Global campus network"
-      description: "Dual-use traditional and AI/compute facilities, with permanent INTERDEPENDENT theatrical venues. Coudersport first; international with Hackman Capital Partners."
+      description: "The campus network. Coudersport, Pennsylvania, with international expansion in development with Hackman Capital Partners."
       link_text:   "In development"
       link_url:    ""
 
@@ -140,15 +140,13 @@ footer:
 
 # about-body
 
-INTERDEPENDENT is a member-owned company organized as a venture studio. Every contributor — writer, director, crew, executive producer, capital partner — becomes a member of the company with a documented economic interest in the work they help make. The model applies across media, capital, and technology; independent film is where it begins.
+INTERDEPENDENT is a member-owned company organized as a venture studio. Every contributor — across creative, capital, and operational roles — becomes a member of the company with a documented economic interest in the work they help make. The model applies across media, capital, and technology; independent film is where it begins.
 
 The opportunity is regulatory. The 1948 Paramount Consent Decrees forced major studios to divest exhibition, forbidding any single company from holding production, distribution, and exhibition together. Their August 2022 termination restored that possibility for the first time since. INTERDEPENDENT is built inside that window.
 
 # library-body
 
 The films constitute INTERDEPENDENT Pictures — the unified studio library — held in permanent custody by the Media Library Series and treated as an appreciating cultural asset across decades.
-
-Exhibition runs through Plots Inc. and a co-host network of vetted independent operators producing INTERDEPENDENT-branded events. Each Future-Proof Production Campus also operates a permanent INTERDEPENDENT theatrical venue.
 
 # leadership-bio
 
