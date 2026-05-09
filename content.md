@@ -42,7 +42,7 @@ hero:
 # ----- ABOUT -----
 about:
   eyebrow: "The model"
-  heading: "The studio system, reborn for independent film."
+  heading: "The studio system, reborn."
   # Body paragraphs are below in the markdown section: "# about-body"
 
 # ----- OPERATING SYSTEM -----
@@ -140,9 +140,9 @@ footer:
 
 # about-body
 
-INTERDEPENDENT is a film studio designed for independent filmmakers. Every contributor — writer, director, crew, executive producer, capital partner — becomes a member of the company with a documented economic interest in the films they help make.
+INTERDEPENDENT is a member-owned company organized as a venture studio. Every contributor — writer, director, crew, executive producer, capital partner — becomes a member of the company with a documented economic interest in the work they help make. The model applies across media, capital, and technology; independent film is where it begins.
 
-The structure is the venture studio model applied to film, inside the legal window opened by the August 2022 termination of the Paramount Consent Decrees.
+The opportunity is regulatory. The 1948 Paramount Consent Decrees forced major studios to divest exhibition, forbidding any single company from holding production, distribution, and exhibition together. Their August 2022 termination restored that possibility for the first time since. INTERDEPENDENT is built inside that window.
 
 # library-body
 
