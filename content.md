@@ -114,7 +114,7 @@ contact:
       kind:     "address"
       lines:
         - "INTERDEPENDENT LLC"
-        - "712 North Main Street"
+        - "428 Route 6 W"
         - "Coudersport, PA 16915"
         - "United States"
 
