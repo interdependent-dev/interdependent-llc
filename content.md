@@ -41,8 +41,8 @@ hero:
 
 # ----- ABOUT -----
 about:
-  eyebrow: "The company"
-  heading: "A company organized around a long view of independent media."
+  eyebrow: "The structure"
+  heading: "A series of companies organized around a long view of independent media."
   # Body paragraphs are below in the markdown section: "# about-body"
 
 # ----- FOCUS -----
