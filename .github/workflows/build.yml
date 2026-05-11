@@ -10,7 +10,7 @@ on:
       - ".github/workflows/build.yml"
   workflow_dispatch: {}
 
-# Allow this workflow to commit the rebuilt index.html back to the repo.
+# Allow this workflow to commit the rebuilt HTML files back to the repo.
 permissions:
   contents: write
 
@@ -29,17 +29,19 @@ jobs:
       - name: Install build deps
         run: pip install --quiet pyyaml jinja2
 
-      - name: Build index.html
+      - name: Build all HTML pages
         run: python3 build.py
 
-      - name: Commit rebuilt index.html if changed
+      - name: Commit rebuilt HTML files if changed
+        # build.py renders index.html, privacy.html, terms.html, and 404.html
+        # from shared partials in _template/. Commit any of those that changed.
         run: |
           git config user.name  "interdependent-bot"
           git config user.email "interdependent-bot@users.noreply.github.com"
-          if git diff --quiet -- index.html; then
-            echo "No changes to index.html — nothing to commit."
+          if git diff --quiet -- index.html privacy.html terms.html 404.html; then
+            echo "No changes to HTML output — nothing to commit."
           else
-            git add index.html
-            git commit -m "chore: rebuild index.html from content.md [skip ci]"
+            git add index.html privacy.html terms.html 404.html
+            git commit -m "chore: rebuild HTML from content.md [skip ci]"
             git push
           fi
