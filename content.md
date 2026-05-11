@@ -15,15 +15,15 @@
 
 site:
   meta_title: "INTERDEPENDENT LLC"
-  meta_description: "INTERDEPENDENT LLC is a member-owned dual-entity venture studio for independent film, operating across media, capital, and technology."
+  meta_description: "INTERDEPENDENT LLC is a member-owned founder-led enterprise operating across media, capital, and technology."
   og_title: "INTERDEPENDENT LLC"
-  og_description: "A member-owned dual-entity venture studio for independent film, operating across media, capital, and technology."
+  og_description: "A member-owned founder-led enterprise operating across media, capital, and technology."
 
 # Top navigation bar — edit labels or add/remove links
 nav:
   - { label: "About",            href: "#about" }
+  - { label: "Focus",            href: "#focus" }
   - { label: "Operating System", href: "#segments" }
-  - { label: "Library",          href: "#library" }
   - { label: "Governance",       href: "#governance" }
   - { label: "Leadership",       href: "#leadership" }
   - { label: "Contact",          href: "#contact" }
@@ -33,7 +33,7 @@ hero:
   eyebrow: "Delaware Series LLC · Established 2017"
   title_top: "INTERDEPENDENT"
   title_suffix: "LLC"
-  statement: "A member-owned enterprise operating across media, capital, and technology."
+  statement: "A member-owned founder-led enterprise operating across media, capital, and technology."
   meta:
     - { label: "Form",         value: "Delaware Series LLC" }
     - { label: "Headquarters", value: "Coudersport, PA" }
@@ -41,66 +41,46 @@ hero:
 
 # ----- ABOUT -----
 about:
-  eyebrow: "The model"
-  heading: "The studio system, reborn."
+  eyebrow: "The company"
+  heading: "A parent operating entity."
   # Body paragraphs are below in the markdown section: "# about-body"
 
+# ----- FOCUS -----
+focus:
+  eyebrow: "Focus"
+  heading: "The studio system, reborn."
+  # Body paragraphs are below in the markdown section: "# focus-body"
+
 # ----- OPERATING SYSTEM -----
-# (YAML key remains "segments" so the URL fragment #segments still resolves;
-# all user-facing copy now reflects the operating-system framing.)
+# (YAML key remains "segments" so the URL fragment #segments still resolves.)
 segments:
   eyebrow: "Operating system"
-  heading: "Two paired entities, three brands."
-  lede: "An operating company paired with an affiliated capital entity — the dual-entity venture studio model. Each underlying venture sits in its own Series under Delaware's Series statute, with assets and liabilities legally isolated. Three brands surface the architecture to audiences and partners."
+  heading: "Three brands, two paired entities, one published rulebook."
+  # Body paragraphs are below in the markdown section: "# segments-body"
   items:
-    - name:        "INTERDEPENDENT LLC"
-      slug:        "Operating company"
-      description: "The Delaware Series LLC. Houses production, employment, services, infrastructure, and IP."
-      link_text:   ""
-      link_url:    ""
-
-    - name:        "INTERDEPENDENT Ventures LP"
-      slug:        "Capital entity · affiliated"
-      description: "The Delaware Series LP where institutional capital is raised. Anchor Fund I current; Funds II, III, and Permanent Capital planned. Operated alongside; not a subsidiary."
-      link_text:   "Inquire"
-      link_url:    "mailto:hello@interdependent.llc?subject=Ventures%20inquiry"
-
-    - name:        "INTERDEPENDENT"
-      slug:        ".studio"
-      description: "The online studio lot. Production and coordination for Studios."
+    - name:        "INTERDEPENDENT.studio"
+      slug:        "Global campus network"
+      description: "Dual-use traditional physical production and AI/compute facilities with an integrated progressive web app for remote studio access. Submitting a screenplay, casting, table reads, dailies, and all other financing, development, production and post-production workflows can be accomplished in-person or remotely from anywhere."
       link_text:   "Visit"
       link_url:    "https://interdependent.studio"
 
-    - name:        "INTERDEPENDENT"
-      slug:        ".tv"
-      description: "The audience layer. Streaming, community, and events for completed productions."
+    - name:        "PLOTS.events"
+      slug:        "IRL experiences"
+      description: "From screenplay signings, casting sessions, table reads, producer and director pitch presentations to cast and crew screenings and themed watch parties, INTERDEPENDENT and accepted co-hosts eventize the entire moviemaking and moviegoing process. Plots enables participating independent theater owners and INTERDEPENDENT-owned venues to offer a premium subscription service exclusively for INTERDEPENDENT events. Plots Inc. is INTERDEPENDENT Ventures' first technology investment."
+      link_text:   "Visit"
+      link_url:    "https://plots.events"
+
+    - name:        "INTERDEPENDENT.tv"
+      slug:        "Pause-to-Shop"
+      description: "Streaming free and paid channels, community, and live event broadcasts for every production. On pause, audiences can surface information on every item appearing on screen to enhance its story value for retail partnership."
       link_text:   "Visit"
       link_url:    "https://interdependent.tv"
-
-    - name:        "Future-Proof Production Campus"
-      slug:        "Global campus network"
-      description: "The campus network. Coudersport, Pennsylvania, with international expansion in development with Hackman Capital Partners."
-      link_text:   "In development"
-      link_url:    ""
-
-# ----- LIBRARY AND EXHIBITION -----
-library:
-  eyebrow: "Library and exhibition"
-  heading: "Every Production releases as an INTERDEPENDENT Picture."
-  # Body paragraphs are below in the markdown section: "# library-body"
 
 # ----- GOVERNANCE -----
 governance:
   eyebrow: "Governance"
-  heading: "A published rulebook, binding on every Production."
-  lede: "Allocation, distribution, and decision rights are governed by the Operating Agreement and the Economic Attribution Policy. Both are signed and effective; both are available on request to qualified counterparties."
-  rows:
-    - { label: "Entity form",           value: "Delaware Series Limited Liability Company" }
-    - { label: "Ownership",             value: "Privately held, member-owned" }
-    - { label: "Governing instruments", value: "Operating Agreement and Economic Attribution Policy (signed and effective)" }
-    - { label: "Series structure",      value: "Each production held in its own Series, with assets and liabilities legally separated" }
-    - { label: "Affiliated capital",    value: "INTERDEPENDENT Ventures LP — separate Delaware Series Limited Partnership" }
-    - { label: "Auditor & counsel",     value: "Engaged; available on request to qualified counterparties" }
+  heading: "Audience is King."
+  # Body paragraphs are below in the markdown section: "# governance-body"
 
 # ----- LEADERSHIP -----
 leadership:
@@ -140,13 +120,37 @@ footer:
 
 # about-body
 
-INTERDEPENDENT is a member-owned company organized as a venture studio. Every contributor — across creative, capital, and operational roles — becomes a member of the company with a documented economic interest in the work they help make. The model applies across media, capital, and technology; independent film is where it begins.
+INTERDEPENDENT LLC is the parent operating entity for a group of related businesses in independent film production, audience and distribution platforms, and physical infrastructure. The company is organized as a Delaware Series LLC, with each production held in its own Series and governed by a single Operating Agreement and a published Economic Attribution Policy.
 
-The opportunity is regulatory. The 1948 Paramount Consent Decrees forced major studios to divest exhibition, forbidding any single company from holding production, distribution, and exhibition together. Their August 2022 termination restored that possibility for the first time since. INTERDEPENDENT is built inside that window.
+The company is privately held and member-owned. It operates the platforms and the campus directly, and works alongside an affiliated capital entity that finances productions through a separate fund structure.
 
-# library-body
+# focus-body
 
-The films constitute INTERDEPENDENT Pictures — the unified studio library — held in permanent custody by the Media Library Series and treated as an appreciating cultural asset across decades.
+The opportunity is regulatory.
+
+The Paramount Consent Decrees forced major studios to divest exhibition, forbidding any single company from holding production, distribution, and exhibition together; their August 2022 termination restored the possibility for the first time since 1948.
+
+INTERDEPENDENT is mission driven to capitalize on a renewed strategy of Old Hollywood vertical integration alongside the transition from traditional filmmaking to the hyper-scaling of AI-powered global, personalized, independent storytelling.
+
+# segments-body
+
+INTERDEPENDENT operates a studio system for independent filmmakers to produce, market, and exhibit their movies anywhere in the world, under a unique branded identity established by the agreements, green-lighting procedures, production and exhibition standards, and economic attribution policy of its founding documents and seasonal updates (the "INTERDEPENDENT OS").
+
+The company works together with an affiliated capital entity INTERDEPENDENT Ventures, a Delaware Series LP that invests in productions and related technologies through a separate multi-fund structure.
+
+Together, the two companies are organized as a "dual-entity" venture studio. Each underlying venture sits in its own Series under Delaware's Series statute, with assets and liabilities legally isolated.
+
+Each participating contributor — capital partner, producer, screenwriter, director, department head, cast or crew — is documented as an associated member with a defined economic interest. Allocation, distribution, and decision rights are governed by the Operating Agreement and the Economic Attribution Policy.
+
+Three brands surface the architecture to audiences and partners.
+
+# governance-body
+
+Every independent filmmaker must gain traction with audiences along a pre-defined, event-driven green-lighting process for INTERDEPENDENT Ventures to invest fund capital.
+
+This means opening up the studio to direct audience engagement, in-person and online, in the screenplay, director attachment, casting, and preview production process as we package and present potential film projects for their consideration.
+
+Gathering proven success indicators from actual audiences on real projects in development frees INTERDEPENDENT from relying on pre-existing IP, the star system, or other less reliable metrics — resulting in a pipeline of more original screenplays and fresh talent worldwide while remaining risk-averse.
 
 # leadership-bio
 

@@ -9,9 +9,11 @@ Run locally:    python3 build.py
 Run in CI:      see .github/workflows/build.yml
 
 Body sections in content.md are delimited by `# section-id` headings.
-Currently the template expects three body sections:
+Currently the template expects five body sections:
   - about-body       → about.body_paragraphs (list of paragraphs)
-  - library-body     → library.body_paragraphs (list of paragraphs)
+  - focus-body       → focus.body_paragraphs (list of paragraphs)
+  - segments-body    → segments.body_paragraphs (list of paragraphs)
+  - governance-body  → governance.body_paragraphs (list of paragraphs)
   - leadership-bio   → leadership.bio (string)
 """
 
@@ -76,8 +78,14 @@ def main() -> int:
     data.setdefault("about", {})["body_paragraphs"] = paragraphs(
         sections.get("about-body", "")
     )
-    data.setdefault("library", {})["body_paragraphs"] = paragraphs(
-        sections.get("library-body", "")
+    data.setdefault("focus", {})["body_paragraphs"] = paragraphs(
+        sections.get("focus-body", "")
+    )
+    data.setdefault("segments", {})["body_paragraphs"] = paragraphs(
+        sections.get("segments-body", "")
+    )
+    data.setdefault("governance", {})["body_paragraphs"] = paragraphs(
+        sections.get("governance-body", "")
     )
     data.setdefault("leadership", {})["bio"] = sections.get("leadership-bio", "").strip()
 
