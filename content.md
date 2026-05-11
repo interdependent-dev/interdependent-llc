@@ -26,7 +26,7 @@ site:
 nav:
   - { label: "About",            href: "/#about" }
   - { label: "Objective",        href: "/#focus" }
-  - { label: "Studio OS",        href: "/#segments" }
+  - { label: "Operating System", href: "/#segments" }
   - { label: "Governance",       href: "/#governance" }
   - { label: "Library",          href: "/#pictures" }
   - { label: "Leadership",       href: "/#leadership" }
