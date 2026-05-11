@@ -22,19 +22,7 @@
 </head>
 <body>
 
-<header class="site-header">
-  <div class="container header-inner">
-    <a class="brand" href="/" aria-label="{{ hero.title_top }} {{ hero.title_suffix }} — home">
-      <img class="brand-mark" src="assets/svg/logo.svg" alt="">
-      <span class="brand-name">{{ hero.title_top }}</span>
-      <span class="brand-suffix">{{ hero.title_suffix }}</span>
-    </a>
-    <nav class="nav" aria-label="Primary">
-      {% for item in nav %}<a href="{{ item.href }}">{{ item.label }}</a>
-      {% endfor %}
-    </nav>
-  </div>
-</header>
+{% include "_header.html.j2" %}
 
 <main id="main">
 
@@ -149,15 +137,7 @@
 
 </main>
 
-<footer class="site-footer">
-  <div class="container footer-inner">
-    <div class="footer-entity">{{ footer.entity_line }}</div>
-    <nav class="footer-links" aria-label="Legal">
-      {% for l in footer.links %}<a href="{{ l.href }}">{{ l.label }}</a>
-      {% endfor %}
-    </nav>
-  </div>
-</footer>
+{% include "_footer.html.j2" %}
 
 </body>
 </html>

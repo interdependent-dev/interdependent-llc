@@ -20,13 +20,16 @@ site:
   og_description: "A member-owned founder-led enterprise operating across media, capital, and technology."
 
 # Top navigation bar — edit labels or add/remove links
+# (Hrefs use the absolute /#anchor form so the same nav works on the
+# home page AND on the legal pages — clicking a nav link from a legal
+# page navigates to the home page and scrolls to the section.)
 nav:
-  - { label: "About",            href: "#about" }
-  - { label: "Objective",        href: "#focus" }
-  - { label: "Operating System", href: "#segments" }
-  - { label: "Governance",       href: "#governance" }
-  - { label: "Leadership",       href: "#leadership" }
-  - { label: "Contact",          href: "#contact" }
+  - { label: "About",            href: "/#about" }
+  - { label: "Objective",        href: "/#focus" }
+  - { label: "Operating System", href: "/#segments" }
+  - { label: "Governance",       href: "/#governance" }
+  - { label: "Leadership",       href: "/#leadership" }
+  - { label: "Contact",          href: "/#contact" }
 
 # ----- HERO -----
 hero:
