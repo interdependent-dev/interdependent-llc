@@ -22,7 +22,7 @@ site:
 # Top navigation bar — edit labels or add/remove links
 nav:
   - { label: "About",            href: "#about" }
-  - { label: "Focus",            href: "#focus" }
+  - { label: "Objective",        href: "#focus" }
   - { label: "Operating System", href: "#segments" }
   - { label: "Governance",       href: "#governance" }
   - { label: "Leadership",       href: "#leadership" }
@@ -45,9 +45,11 @@ about:
   heading: "A series of companies organized around a long view of independent media."
   # Body paragraphs are below in the markdown section: "# about-body"
 
-# ----- FOCUS -----
+# ----- OBJECTIVE -----
+# (YAML key remains "focus" so the URL fragment #focus still resolves;
+# all user-facing copy now uses "Objective".)
 focus:
-  eyebrow: "Focus"
+  eyebrow: "Objective"
   heading: "The studio system, reborn."
   # Body paragraphs are below in the markdown section: "# focus-body"
 
