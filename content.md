@@ -26,7 +26,7 @@ site:
 nav:
   - { label: "About",            href: "/#about" }
   - { label: "Objective",        href: "/#focus" }
-  - { label: "Operating System", href: "/#segments" }
+  - { label: "Studio OS",        href: "/#segments" }
   - { label: "Governance",       href: "/#governance" }
   - { label: "Library",          href: "/#pictures" }
   - { label: "Leadership",       href: "/#leadership" }
@@ -153,7 +153,7 @@ INTERDEPENDENT is mission driven to capitalize on a renewed strategy of Old Holl
 
 # segments-body
 
-INTERDEPENDENT operates a studio system for independent filmmakers to produce, market, and exhibit their movies anywhere in the world, under a unique branded identity established by the agreements, green-lighting procedures, production and exhibition standards, and economic attribution policy of its founding documents and seasonal updates (the "INTERDEPENDENT OS").
+INTERDEPENDENT operates a studio system for independent filmmakers to produce, market, and exhibit their movies anywhere in the world, under a unique branded identity established by the agreements, green-lighting procedures, production and exhibition standards, and economic attribution policy of its founding documents and seasonal updates (the "Studio OS").
 
 The company works together with an affiliated capital entity INTERDEPENDENT Ventures, a Delaware Series LP that invests in productions and related technologies through a separate multi-fund structure.
 
