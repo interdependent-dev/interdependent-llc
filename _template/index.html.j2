@@ -22,19 +22,7 @@
 </head>
 <body>
 
-<header class="site-header">
-  <div class="container header-inner">
-    <a class="brand" href="/" aria-label="{{ hero.title_top }} {{ hero.title_suffix }} — home">
-      <img class="brand-mark" src="assets/svg/logo.svg" alt="">
-      <span class="brand-name">{{ hero.title_top }}</span>
-      <span class="brand-suffix">{{ hero.title_suffix }}</span>
-    </a>
-    <nav class="nav" aria-label="Primary">
-      {% for item in nav %}<a href="{{ item.href }}">{{ item.label }}</a>
-      {% endfor %}
-    </nav>
-  </div>
-</header>
+{% include "_header.html.j2" %}
 
 <main id="main">
 
@@ -66,12 +54,23 @@
     </div>
   </section>
 
+  <!-- FOCUS -->
+  <section id="focus" class="section">
+    <div class="container narrow">
+      <span class="eyebrow">{{ focus.eyebrow }}</span>
+      <h2 class="section-title">{{ focus.heading }}</h2>
+      {% for p in focus.body_paragraphs %}<p class="lede"{% if not loop.first %} style="margin-top: 18px;"{% endif %}>{{ p }}</p>
+      {% endfor %}
+    </div>
+  </section>
+
   <!-- OPERATING SEGMENTS -->
   <section id="segments" class="section">
     <div class="container">
       <span class="eyebrow">{{ segments.eyebrow }}</span>
       <h2 class="section-title">{{ segments.heading }}</h2>
-      <p class="lede">{{ segments.lede }}</p>
+      {% for p in segments.body_paragraphs %}<p class="lede"{% if not loop.first %} style="margin-top: 18px;"{% endif %}>{{ p }}</p>
+      {% endfor %}
 
       <div class="segments" role="list">
         {% for s in segments['items'] %}<div class="segment" role="listitem">
@@ -89,8 +88,10 @@
     <div class="container narrow">
       <span class="eyebrow">{{ governance.eyebrow }}</span>
       <h2 class="section-title">{{ governance.heading }}</h2>
-      <p class="lede">{{ governance.lede }}</p>
+      {% for p in governance.body_paragraphs %}<p class="lede"{% if not loop.first %} style="margin-top: 18px;"{% endif %}>{{ p }}</p>
+      {% endfor %}
 
+      {% if governance.rows is defined and governance.rows %}
       <dl>
         {% for r in governance.rows %}<div class="row">
           <dt>{{ r.label }}</dt>
@@ -98,6 +99,7 @@
         </div>
         {% endfor %}
       </dl>
+      {% endif %}
     </div>
   </section>
 
@@ -135,15 +137,7 @@
 
 </main>
 
-<footer class="site-footer">
-  <div class="container footer-inner">
-    <div class="footer-entity">{{ footer.entity_line }}</div>
-    <nav class="footer-links" aria-label="Legal">
-      {% for l in footer.links %}<a href="{{ l.href }}">{{ l.label }}</a>
-      {% endfor %}
-    </nav>
-  </div>
-</footer>
+{% include "_footer.html.j2" %}
 
 </body>
 </html>

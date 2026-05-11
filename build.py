@@ -9,8 +9,11 @@ Run locally:    python3 build.py
 Run in CI:      see .github/workflows/build.yml
 
 Body sections in content.md are delimited by `# section-id` headings.
-Currently the template expects two body sections:
+Currently the template expects five body sections:
   - about-body       → about.body_paragraphs (list of paragraphs)
+  - focus-body       → focus.body_paragraphs (list of paragraphs)
+  - segments-body    → segments.body_paragraphs (list of paragraphs)
+  - governance-body  → governance.body_paragraphs (list of paragraphs)
   - leadership-bio   → leadership.bio (string)
 """
 
@@ -26,8 +29,17 @@ from jinja2 import Environment, FileSystemLoader, StrictUndefined
 ROOT = Path(__file__).parent
 CONTENT = ROOT / "content.md"
 TEMPLATE_DIR = ROOT / "_template"
-TEMPLATE_NAME = "index.html.j2"
-OUTPUT = ROOT / "index.html"
+
+# Pages to render: each is (template filename, output filename).
+# All four pages share the YAML frontmatter from content.md and use the
+# shared _header.html.j2 / _footer.html.j2 partials so the nav can't
+# drift between pages.
+PAGES = [
+    ("index.html.j2",   "index.html"),
+    ("privacy.html.j2", "privacy.html"),
+    ("terms.html.j2",   "terms.html"),
+    ("404.html.j2",     "404.html"),
+]
 
 
 def parse_content(text: str) -> tuple[dict, dict[str, str]]:
@@ -75,6 +87,15 @@ def main() -> int:
     data.setdefault("about", {})["body_paragraphs"] = paragraphs(
         sections.get("about-body", "")
     )
+    data.setdefault("focus", {})["body_paragraphs"] = paragraphs(
+        sections.get("focus-body", "")
+    )
+    data.setdefault("segments", {})["body_paragraphs"] = paragraphs(
+        sections.get("segments-body", "")
+    )
+    data.setdefault("governance", {})["body_paragraphs"] = paragraphs(
+        sections.get("governance-body", "")
+    )
     data.setdefault("leadership", {})["bio"] = sections.get("leadership-bio", "").strip()
 
     env = Environment(
@@ -83,11 +104,14 @@ def main() -> int:
         undefined=StrictUndefined,
         keep_trailing_newline=True,
     )
-    tpl = env.get_template(TEMPLATE_NAME)
-    rendered = tpl.render(**data)
 
-    OUTPUT.write_text(rendered, encoding="utf-8")
-    print(f"wrote {OUTPUT.relative_to(ROOT)} ({len(rendered):,} bytes)")
+    for template_name, output_name in PAGES:
+        tpl = env.get_template(template_name)
+        rendered = tpl.render(**data)
+        output_path = ROOT / output_name
+        output_path.write_text(rendered, encoding="utf-8")
+        print(f"wrote {output_path.relative_to(ROOT)} ({len(rendered):,} bytes)")
+
     return 0
 
 
