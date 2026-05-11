@@ -103,6 +103,16 @@
     </div>
   </section>
 
+  <!-- INTERDEPENDENT PICTURES -->
+  <section id="pictures" class="section">
+    <div class="container narrow">
+      <span class="eyebrow">{{ pictures.eyebrow }}</span>
+      <h2 class="section-title">{{ pictures.heading }}</h2>
+      {% for p in pictures.body_paragraphs %}<p class="lede"{% if not loop.first %} style="margin-top: 18px;"{% endif %}>{{ p }}</p>
+      {% endfor %}
+    </div>
+  </section>
+
   <!-- LEADERSHIP -->
   <section id="leadership" class="section">
     <div class="container narrow">

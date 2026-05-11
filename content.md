@@ -28,6 +28,7 @@ nav:
   - { label: "Objective",        href: "/#focus" }
   - { label: "Operating System", href: "/#segments" }
   - { label: "Governance",       href: "/#governance" }
+  - { label: "Library",          href: "/#pictures" }
   - { label: "Leadership",       href: "/#leadership" }
   - { label: "Contact",          href: "/#contact" }
 
@@ -93,6 +94,12 @@ governance:
     - { label: "Series structure",      value: "Each production held in its own Series, with assets and liabilities legally separated" }
     - { label: "Affiliated capital",    value: "INTERDEPENDENT Ventures LP — separate Delaware Series Limited Partnership" }
     - { label: "Auditor & counsel",     value: "Engaged; available on request to qualified counterparties" }
+
+# ----- INTERDEPENDENT PICTURES -----
+pictures:
+  eyebrow: "INTERDEPENDENT Pictures"
+  heading: "Every Production releases as an INTERDEPENDENT Picture."
+  # Body paragraphs are below in the markdown section: "# pictures-body"
 
 # ----- LEADERSHIP -----
 leadership:
@@ -163,6 +170,10 @@ Every independent filmmaker must gain traction with audiences along a pre-define
 This means opening up the studio to direct audience engagement, in-person and online, in the screenplay, director attachment, casting, and preview production process as we package and present potential film projects for their consideration.
 
 Gathering proven success indicators from actual audiences on real projects in development frees INTERDEPENDENT from relying on pre-existing IP, the star system, or other less reliable metrics — resulting in a pipeline of more original screenplays and fresh talent worldwide while remaining risk-averse.
+
+# pictures-body
+
+The films constitute INTERDEPENDENT Pictures — the unified studio library — held in permanent custody by the Media Library Series and treated as an appreciating cultural asset across decades.
 
 # leadership-bio
 
