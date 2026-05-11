@@ -42,7 +42,7 @@ hero:
 # ----- ABOUT -----
 about:
   eyebrow: "The company"
-  heading: "A parent operating entity."
+  heading: "A company organized around a long view of independent media."
   # Body paragraphs are below in the markdown section: "# about-body"
 
 # ----- FOCUS -----
@@ -81,6 +81,13 @@ governance:
   eyebrow: "Governance"
   heading: "Audience is King."
   # Body paragraphs are below in the markdown section: "# governance-body"
+  rows:
+    - { label: "Entity form",           value: "Delaware Series Limited Liability Company" }
+    - { label: "Ownership",             value: "Privately held, member-owned" }
+    - { label: "Governing instruments", value: "Operating Agreement and Economic Attribution Policy" }
+    - { label: "Series structure",      value: "Each production held in its own Series, with assets and liabilities legally separated" }
+    - { label: "Affiliated capital",    value: "INTERDEPENDENT Ventures LP — separate Delaware Series Limited Partnership" }
+    - { label: "Auditor & counsel",     value: "Engaged; available on request to qualified counterparties" }
 
 # ----- LEADERSHIP -----
 leadership:

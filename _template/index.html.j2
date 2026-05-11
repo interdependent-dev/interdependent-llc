@@ -102,6 +102,16 @@
       <h2 class="section-title">{{ governance.heading }}</h2>
       {% for p in governance.body_paragraphs %}<p class="lede"{% if not loop.first %} style="margin-top: 18px;"{% endif %}>{{ p }}</p>
       {% endfor %}
+
+      {% if governance.rows is defined and governance.rows %}
+      <dl>
+        {% for r in governance.rows %}<div class="row">
+          <dt>{{ r.label }}</dt>
+          <dd>{{ r.value }}</dd>
+        </div>
+        {% endfor %}
+      </dl>
+      {% endif %}
     </div>
   </section>
 
