@@ -76,7 +76,7 @@
         {% for s in segments['items'] %}<div class="segment" role="listitem">
           <div class="segment-name">{{ s.name }}<span class="tld"> · {{ s.slug }}</span></div>
           <p class="segment-desc">{{ s.description }}</p>
-          {% if s.link_url %}<a class="segment-link" href="{{ s.link_url }}"{% if s.link_url.startswith('http') %} target="_blank" rel="noopener"{% endif %}>{{ s.link_text }}{% if s.link_url.startswith('http') %} ↗{% endif %}</a>{% else %}<span class="segment-link" style="color: var(--text-muted);">{{ s.link_text }}</span>{% endif %}
+          {% if s.link_url %}<a class="segment-link" href="{{ s.link_url }}"{% if s.link_url.startswith('http') %} target="_blank" rel="noopener"{% endif %}>{{ s.link_text }}</a>{% else %}<span class="segment-link" style="color: var(--text-muted);">{{ s.link_text }}</span>{% endif %}
         </div>
         {% endfor %}
       </div>
