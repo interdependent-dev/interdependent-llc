@@ -92,7 +92,7 @@ governance:
     - { label: "Ownership",             value: "Privately held, member-owned" }
     - { label: "Governing instruments", value: "Operating Agreement and Economic Attribution Policy" }
     - { label: "Series structure",      value: "Each production held in its own Series, with assets and liabilities legally separated" }
-    - { label: "Affiliated capital",    value: "INTERDEPENDENT Ventures LP — separate Delaware Series Limited Partnership" }
+    - { label: "Affiliated capital",    value: "<a class='body-link' href='https://interdependent.ventures' target='_blank' rel='noopener'>INTERDEPENDENT Ventures LP</a> — separate Delaware Series Limited Partnership" }
     - { label: "Auditor & counsel",     value: "Engaged; available on request to qualified counterparties" }
 
 # ----- INTERDEPENDENT PICTURES -----
@@ -155,7 +155,7 @@ INTERDEPENDENT is mission driven to capitalize on a renewed strategy of Old Holl
 
 INTERDEPENDENT operates a studio system for independent filmmakers to produce, market, and exhibit their movies anywhere in the world, under a unique branded identity established by the agreements, green-lighting procedures, production and exhibition standards, and economic attribution policy of its founding documents and seasonal updates (the "Operating System").
 
-The company works together with an affiliated capital entity INTERDEPENDENT Ventures, a Delaware Series LP that invests in productions and related technologies through a separate multi-fund structure.
+The company works together with an affiliated capital entity <a class="body-link" href="https://interdependent.ventures" target="_blank" rel="noopener">INTERDEPENDENT Ventures</a>, a Delaware Series LP that invests in productions and related technologies through a separate multi-fund structure.
 
 Together, the two companies are organized as a "dual-entity" venture studio. Each underlying venture sits in its own Series under Delaware's Series statute, with assets and liabilities legally isolated.
 

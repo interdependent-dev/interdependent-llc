@@ -82,6 +82,11 @@ a:hover, a:focus-visible {
   outline: none;
 }
 
+/* Inline links inside body prose / spec values: inherit the prose color
+   with a soft underline, brand red on hover. */
+.body-link { color: inherit; border-bottom-color: rgba(138, 135, 127, 0.55); }
+.body-link:hover, .body-link:focus-visible { color: var(--red); border-bottom-color: currentColor; }
+
 ::selection { background: #f1d5d5; color: var(--text); }
 
 /* ---------- Layout primitives ---------- */
