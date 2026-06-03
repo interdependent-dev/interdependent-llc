@@ -177,4 +177,4 @@ The films constitute INTERDEPENDENT Pictures — the unified studio library — 
 
 # leadership-bio
 
-He is responsible for INTERDEPENDENT's strategic direction, its governing documents, and the design of its operating system.
+Chris is responsible for INTERDEPENDENT's strategic direction, its governing documents, and the design of its operating system. He loves movies and technology in equal measure.<span class="leader-links"><a href="https://www.imdb.com/name/nm15892125/" target="_blank" rel="noopener">IMDb</a><a href="https://www.linkedin.com/in/camell24/" target="_blank" rel="noopener">LinkedIn</a></span>

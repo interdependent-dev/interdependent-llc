@@ -376,6 +376,23 @@ strong { color: var(--text); font-weight: 600; }
   color: var(--text-2);
   max-width: 64ch;
 }
+.leader-links {
+  display: flex;
+  gap: 28px;
+  margin-top: 20px;
+}
+.leader-links a {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--red);
+  border-bottom: 1px solid transparent;
+}
+.leader-links a:hover, .leader-links a:focus-visible {
+  color: var(--red-strong);
+  border-bottom-color: currentColor;
+}
 
 /* ---------- Contact ---------- */
 
